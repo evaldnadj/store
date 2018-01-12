@@ -8,6 +8,7 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { BuyersComponentComponent } from './components/buyers-component/buyers-component.component';
 import { ProductsComponentComponent } from './components/products-component/products-component.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { BuyersService } from './services/buyers.service';
 
 const appRoutes: Routes = [
   { path: '', component: ProductsComponentComponent },
